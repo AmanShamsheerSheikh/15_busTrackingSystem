@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="LOCATION"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:id="@+id/location"/>
+
+    <item
+        android:title="PROFILE"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:id="@+id/account"/>
+</menu>

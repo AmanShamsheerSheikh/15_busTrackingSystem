@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "956543744679",
+    "project_id": "bustravo-734e1",
+    "storage_bucket": "bustravo-734e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956543744679:android:0aa8c6fb3af44487117982",
+        "android_client_info": {
+          "package_name": "com.example.bustravo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956543744679-68d15mnv3mes2hh6pi8d2h83ralbm3sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnhuAi9yusAQ59stJj4WM9pKQuM20D6m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956543744679-68d15mnv3mes2hh6pi8d2h83ralbm3sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

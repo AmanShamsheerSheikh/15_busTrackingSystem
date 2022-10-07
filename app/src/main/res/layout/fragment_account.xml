@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Account">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="142dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardMaxElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/usernameA"
+                android:layout_width="318dp"
+                android:layout_height="71dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-320dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="28dp"
+                android:padding="20dp"
+                android:text="TextView"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/emailA"
+                android:layout_width="324dp"
+                android:layout_height="71dp"
+                android:layout_below="@+id/usernameA"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="34dp"
+                android:padding="20dp"
+                android:text="TextView"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/adhaarA"
+                android:layout_width="324dp"
+                android:layout_height="69dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="252dp"
+                android:padding="20dp"
+                android:text="TextView"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/numberPlateA"
+                android:layout_width="336dp"
+                android:layout_height="69dp"
+                android:layout_below="@+id/adhaarA"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="TextView"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/signOut"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/numberPlateA"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="129dp"
+                android:layout_marginTop="88dp"
+                android:layout_marginEnd="133dp"
+                android:text="SIGN OUT" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
